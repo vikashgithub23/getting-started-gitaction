@@ -42,4 +42,8 @@ jobs:
           mvn --version
           echo IS git installed?
           git --version
+          echo who is runing build
+          whoami
+          echo $RUNNER_WORKSPACE
+          env
           
