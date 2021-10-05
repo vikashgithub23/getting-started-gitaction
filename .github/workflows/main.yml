@@ -34,10 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo what is current directory
+          pwd
           echo Is java is installed?
-          echo java -version
+          java -version
           echo is build tool is insatlled?
-          echo mvn --version
+          mvn --version
           echo IS git installed?
-          echo git --version
+          git --version
           
